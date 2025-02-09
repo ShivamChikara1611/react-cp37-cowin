@@ -94,7 +94,7 @@ class CowinDashboard extends Component {
   }
 
   renderLoadingView = () => (
-    <div className="loading-view" testid="loader">
+    <div className="loading-view" data-testid="loader">
       <Loader color="#ffffff" height={80} type="ThreeDots" width={80} />
     </div>
   )
